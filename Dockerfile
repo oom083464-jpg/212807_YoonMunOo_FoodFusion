@@ -1,5 +1,9 @@
-FROM nginx:alpine
+FROM python:3.11
 
-COPY . /usr/share/nginx/html
+WORKDIR /app
 
-EXPOSE 80
+COPY . .
+
+RUN pip install -r requirements.txt
+
+CMD ["python", "app.py"]
