@@ -1,9 +1,2 @@
-FROM python:3.11
-
-WORKDIR /app
-
-COPY . .
-
-RUN pip install -r requirements.txt
-
-CMD ["python", "main.py"]
+FROM php:8.0-apache
+RUN docker-php-ext-install pdo pdo_mysql
