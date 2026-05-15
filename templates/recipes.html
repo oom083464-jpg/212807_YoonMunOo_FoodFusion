@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Collection - FoodFusion</title>
+    <link rel="stylesheet" href="../CSS/recipesstyle.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo"><span class="orange-text">Food</span>Fusion</div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="recipes.html" class="active">Recipes</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <button class="btn-login"><a href="auth.html">Login</a></button>
+                <button class="btn-register"><a href="auth.html">Register</a></button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="collection-header">
+            <h1>Recipe Collection</h1>
+            <p>Find your favorite recipes</p>
+            <div class="search-box">
+                <input type="text" placeholder="Search recipes...">
+                <button class="btn-search">Search</button>
+            </div>
+        </section>
+
+        <section class="main-layout">
+            <aside class="sidebar">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#" class="active">All Categories</a></li>
+                    <li><a href="#">Breakfast</a></li>
+                    <li><a href="#">Main Course</a></li>
+                    <li><a href="#">Appetizers</a></li>
+                    <li><a href="#">Desserts</a></li>
+                    <li><a href="#">Drinks</a></li>
+                </ul>
+            </aside>
+
+            <section class="recipe-display">
+                <div class="filter-bar">
+                    <span>Cuisine: <strong>All Categories</strong></span>
+                    <span>Diff Level: <strong>All Levels</strong></span>
+                    <span>Sort by: <strong>Newest</strong></span>
+                </div>
+
+                <div class="recipe-grid">
+                    <div class="recipe-card">
+                        <img src="../Image/ChickenBiryani.png" alt="Biryani">
+                        <div class="card-info">
+                            <h3>Chicken Biryani</h3>
+                            <p>Indian • Medium • ⭐ 4.6</p>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <img src="../Image/BeefBurger.webp" alt="Burger">
+                        <div class="card-info">
+                            <h3>Beef Burger</h3>
+                            <p>Fast Food • Easy • ⭐ 4.9</p>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <img src="../Image/AvocadoSalad.webp" alt="Salad">
+                        <div class="card-info">
+                            <h3>Avocado Salad</h3>
+                            <p>Healthy • Easy • ⭐ 4.7</p>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <img src="../Image/Pancakes.jpg" alt="Pancakes">
+                        <div class="card-info">
+                            <h3>Pancakes</h3>
+                            <p>Breakfast • Easy • ⭐ 4.5</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pagination">
+                    <button>&laquo;</button>
+                    <button class="active">1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>&raquo;</button>
+                </div>
+            </section>
+        </section>
+    </main>
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <!-- About Section -->
+            <div class="footer-section about">
+                <h2 class="footer-logo">Food<span>Fusion</span></h2>
+                <p>Explore a world of delicious recipes and share your culinary passion with our community. Your one-stop destination for taste and inspiration.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="cookie_policy.html">Cookie Setting</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="footer-section contact">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> info@foodfusion.com</p>
+                <p><i class="fas fa-phone"></i> +95 9 123 456 789</p>
+                <p><i class="fas fa-map-marker-alt"></i> Yangon, Myanmar</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 FoodFusion | Designed by Hsu Myat for Academic Project</p>
+        </div>
+    </footer>
+</body>
+</html>
